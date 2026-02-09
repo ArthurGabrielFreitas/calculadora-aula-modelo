@@ -1,9 +1,7 @@
-package com.example.calculadoraaula;
+package com.example.calculadoraaula.calculadora;
 
 public class Calculadora {
     public int somar(int num1, int num2) throws Exception {
-        if (num1<0 || num1 > 100)
-            throw new Exception("Número 1 fora dos limites aceitos (0 a 100)");
         return num1 + num2;
     }
 
